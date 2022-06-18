@@ -34,4 +34,3 @@ D:\Repositorio\VisualStudio\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Sale
 D:\Repositorio\VisualStudio\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.pdb
 D:\Repositorio\VisualStudio\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.genruntimeconfig.cache
 D:\Repositorio\VisualStudio\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.csproj.CopyComplete
-D:\Repositorio\VisualStudio\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Departments\View.cshtml.g.cs
