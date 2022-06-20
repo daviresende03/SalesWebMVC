@@ -2,6 +2,7 @@
 using SalesWebMVC.Models;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace SalesWebMVC.Services
 {
@@ -17,6 +18,12 @@ namespace SalesWebMVC.Services
         public List<Seller> FindAll()
         {
             return _context.Seller.ToList();
+        }
+
+        public async Task Insert(Seller obj)
+        {
+            await _context.AddAsync(obj);
+            await _context.SaveChangesAsync();
         }
     }
 }
