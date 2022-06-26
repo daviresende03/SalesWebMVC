@@ -4,14 +4,11 @@
     ViewData["Title"] = "Edit";
 }
 
-<h2>@ViewData["Title"]</h2>
-
-<h4>Seller</h4>
-<hr />
-
+<h1>Sellers | @ViewData["Title"]</h1>
+<hr style="border-bottom: 3px solid #2c3e50" />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit"> <!--Chamando a ação Edit no envio do formulário-->
+        <form asp-action="Edit" id="formEdit"> <!--Chamando a ação Edit no envio do formulário-->
             <input type="hidden" asp-for="Seller.Id" />
             <div class="form=group">
                 <label asp-for="Seller.Name" class="contol-label"></label>
@@ -37,8 +34,10 @@
                 <label asp-for="Seller.DepartmentId" class="control-label"></label>
                 <select asp-for="Seller.DepartmentId" asp-items="@(new SelectList(Model.Departments,"Id","Name"))" class="form-control"></select>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-default" style="margin-top: 12px; width: 100%;"/>
+            <div class="btn-group-justified">
+                <a asp-action="Index" class="btn btn-info">Back to List</a>
+                <a asp-action="Delete" asp-route-id="@Model.Seller.Id" class="btn btn-danger">Delete</a>
+                <a onclick='document.getElementById("formEdit").submit();' class="btn btn-default">Save</a>
             </div>
         </form>
     </div>
