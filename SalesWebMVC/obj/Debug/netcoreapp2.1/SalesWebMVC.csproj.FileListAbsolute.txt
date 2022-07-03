@@ -18,7 +18,6 @@ D:\Repositorio\VisualStudio\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Sale
 D:\Repositorio\VisualStudio\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.TagHelpers.output.cache
 D:\Repositorio\VisualStudio\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.RazorCoreGenerate.cache
 D:\Repositorio\VisualStudio\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
-D:\Repositorio\VisualStudio\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
 D:\Repositorio\VisualStudio\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
 D:\Repositorio\VisualStudio\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
 D:\Repositorio\VisualStudio\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
